@@ -1,0 +1,38 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+
+# VSCode and JetBrains
+.vscode/
+
+# ROS2 build system
+build/
+install/
+log/
+
+# Colcon files
+*.log
+*.pyc
+
+# Model weights and large binaries
+*.pt
+*.onnx
+models/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Jupyter notebooks (if using)
+.ipynb_checkpoints/
+
+# Debug or temp
+*.bak
+*.swp
+*.tmp
