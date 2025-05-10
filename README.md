@@ -26,11 +26,6 @@ This project explores real-time object detection and 3D pose estimation using an
 
 1. Clone this repository to your Raspberry Pi:
     ```bash
-<<<<<<< HEAD
-    git clone https://github.com/yourusername/ros2-object-detection-rpi.git
-    cd ros2-object-detection-rpi
-=======
     git clone https://github.com/Joaoprv/ros2-vision.git
     cd ros2-vision
->>>>>>> origin/main
     ```
