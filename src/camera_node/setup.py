@@ -1,6 +1,4 @@
 from setuptools import find_packages, setup
-import os
-from glob import glob
 
 package_name = 'camera_node'
 
@@ -10,7 +8,8 @@ setup(
     packages=find_packages(exclude=['test']),
     data_files=[
         ('share/' + package_name, ['package.xml']),
-        (os.path.join('share', package_name, 'launch'), glob('launch/*.py')),
+        ('share/' + package_name + '/launch', ['launch/camera_launch.py']),
+        ('share/' + package_name + '/resource', ['resource/' + package_name]),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
