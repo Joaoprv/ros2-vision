@@ -3,3 +3,4 @@ flask
 rclpy 
 sensor_msgs 
 cv_bridge
+onnxruntime

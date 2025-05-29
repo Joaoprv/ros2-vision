@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'camera_node = camera_node.camera_node:main'
+            'camera_node = camera_node.camera_node:main',
+            'inference_node = camera_node.inference_node:main',
         ],
     }
 )
